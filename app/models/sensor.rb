@@ -3,5 +3,5 @@ class Sensor < ActiveRecord::Base
   has_many :numeric_readings
   has_many :location_readings
   has_many :string_readings
-  has_one :sensor_type
+  belongs_to :sensor_type
 end

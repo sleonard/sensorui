@@ -1,7 +1,39 @@
-s1:
+s1d1: # Sensor 1 / Device 1
   name: location
   device: d1
+  sensor_type: location
   
-s2:
+s1d2:
   name: location
   device: d2
+  sensor_type: location
+  
+s1d3:
+  name: location
+  device: d3
+  sensor_type: location
+  
+s2d3:
+  name: runtime
+  device: d3
+  sensor_type: number
+
+s3d3:
+  name: engine_status # on/off
+  device: d3
+  sensor_type: number
+  
+s1d4:
+  name: location
+  device: d3
+  sensor_type: location
+
+s2d4:
+  name: runtime
+  device: d3
+  sensor_type: number
+
+s3d4:
+  name: engine_status # on/off
+  device: d3
+  sensor_type: number

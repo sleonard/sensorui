@@ -1,3 +1,3 @@
 class SensorType < ActiveRecord::Base
-  belongs_to :sensor
+  has_one :sensor
 end
